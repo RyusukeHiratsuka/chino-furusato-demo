@@ -1,9 +1,10 @@
 import Image from "next/image";
-import { CalendarDays, Gift, Heart, MapPin, UsersRound, WalletCards } from "lucide-react";
+import { CalendarDays, Gift, MapPin, UsersRound, WalletCards } from "lucide-react";
 import { appealBlocks, mainReward, type Reward } from "@/data/rewards";
 import { PortalLinks } from "./PortalLinks";
 import { SiteHeader } from "./SiteHeader";
 import { Footer } from "./Footer";
+import { RewardGallery } from "./RewardGallery";
 
 const specs = [
   { icon: UsersRound, label: "ご利用人数", value: mainReward.people },
@@ -25,41 +26,7 @@ export function RewardDetail({ reward = mainReward, preview = false }: { reward?
         <main>
         <section className="container-shell pt-4">
           <div className="mb-4 hidden text-xs text-ink/55 md:block">ホーム　&gt;　返礼品一覧　&gt;　宿泊・温泉・旅館　&gt;　{reward.title}</div>
-          <div className="relative overflow-hidden rounded-md bg-forest-900">
-            <div className="relative h-[520px] md:h-[560px]">
-              <Image src={reward.heroImage} alt={reward.title} fill priority className="image-cover opacity-75" />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/78 via-black/34 to-transparent" />
-              <div className="absolute left-6 top-8 max-w-xl text-white md:left-10 md:top-16">
-                <div className="mb-5 flex flex-wrap gap-2">
-                  {reward.tags.map((tag) => (
-                    <span key={tag} className="rounded bg-forest-800/90 px-3 py-1 text-xs font-bold">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <h1 className="jp-serif text-3xl leading-[1.55] md:text-5xl">{reward.title}</h1>
-                <p className="mt-5 text-lg font-bold">寄付金額　{reward.amount}</p>
-                <div className="mt-5 flex flex-wrap gap-2 text-sm">
-                  <span className="rounded-full border border-white/70 px-4 py-1">1泊2食付</span>
-                  <span className="rounded-full border border-white/70 px-4 py-1">ペア宿泊券</span>
-                  <span className="rounded-full border border-white/70 px-4 py-1">温泉</span>
-                  <span className="rounded-full border border-white/70 px-4 py-1">絶景</span>
-                </div>
-                <button className="mt-7 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-forest-900 shadow-soft">
-                  <Heart className="h-5 w-5 text-gold" />
-                  お気に入りに追加
-                </button>
-              </div>
-              <div className="absolute right-5 top-5 rounded-full bg-black/70 px-3 py-1 text-sm font-bold text-white">1 / 6</div>
-            </div>
-          </div>
-          <div className="mt-4 grid grid-cols-3 gap-2 md:grid-cols-6 md:gap-4">
-            {reward.gallery.map((image, index) => (
-              <div key={image + index} className="relative h-20 overflow-hidden rounded-md border-2 border-white shadow-sm md:h-24">
-                <Image src={image} alt={`${reward.title} ギャラリー ${index + 1}`} fill className="image-cover" />
-              </div>
-            ))}
-          </div>
+          <RewardGallery reward={reward} />
         </section>
 
         <section className="container-shell grid gap-8 py-12 lg:grid-cols-[1fr_440px]">
