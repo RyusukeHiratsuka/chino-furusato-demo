@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f7f2e8"/>
+  <rect x="48" y="48" width="1104" height="664" rx="28" fill="#ffffff" stroke="#d8c9aa" stroke-width="3"/>
+  <circle cx="112" cy="112" r="42" fill="#0f6a46"/>
+  <text x="112" y="127" text-anchor="middle" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="34" font-weight="700" fill="#ffffff">4</text>
+  <text x="178" y="126" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="42" font-weight="800" fill="#153f2a">比較・選び方</text>
+  <text x="178" y="174" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24" fill="#5b625c">誰に向いている返礼品か、他の選択肢との違いを整理します。</text>
+  <g font-family="Hiragino Sans, Yu Gothic, sans-serif">
+    <rect x="92" y="236" width="1016" height="80" rx="18" fill="#153f2a"/>
+    <text x="216" y="286" font-size="25" font-weight="800" fill="#ffffff">比較項目</text>
+    <text x="500" y="286" font-size="25" font-weight="800" fill="#ffffff">本返礼品</text>
+    <text x="780" y="286" font-size="25" font-weight="800" fill="#ffffff">一般的な宿泊券</text>
+    <rect x="92" y="316" width="1016" height="86" fill="#ffffff" stroke="#d8c9aa"/>
+    <text x="134" y="368" font-size="25" font-weight="800" fill="#153f2a">食事</text>
+    <text x="452" y="368" font-size="24" fill="#1d211f">1泊2食付</text>
+    <text x="758" y="368" font-size="24" fill="#1d211f">朝食のみ・素泊まりも多い</text>
+    <rect x="92" y="402" width="1016" height="86" fill="#f8faf7" stroke="#d8c9aa"/>
+    <text x="134" y="454" font-size="25" font-weight="800" fill="#153f2a">人数</text>
+    <text x="452" y="454" font-size="24" fill="#1d211f">2名様で利用可能</text>
+    <text x="758" y="454" font-size="24" fill="#1d211f">人数条件が分かりにくい</text>
+    <rect x="92" y="488" width="1016" height="86" fill="#ffffff" stroke="#d8c9aa"/>
+    <text x="134" y="540" font-size="25" font-weight="800" fill="#153f2a">体験価値</text>
+    <text x="452" y="540" font-size="24" fill="#1d211f">温泉・会席・眺望を満喫</text>
+    <text x="758" y="540" font-size="24" fill="#1d211f">宿泊機能中心になりやすい</text>
+    <rect x="92" y="604" width="1016" height="54" rx="14" fill="#f7f2e8" stroke="#d8c9aa"/>
+    <text x="130" y="639" font-size="22" font-weight="800" fill="#b69446">選び方：</text>
+    <text x="232" y="639" font-size="22" fill="#1d211f">記念日・夫婦旅行・親しい方への贈り物におすすめです。</text>
+  </g>
+</svg>

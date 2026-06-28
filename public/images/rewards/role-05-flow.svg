@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f7f2e8"/>
+  <rect x="48" y="48" width="1104" height="664" rx="28" fill="#ffffff" stroke="#d8c9aa" stroke-width="3"/>
+  <circle cx="112" cy="112" r="42" fill="#0f6a46"/>
+  <text x="112" y="127" text-anchor="middle" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="34" font-weight="700" fill="#ffffff">5</text>
+  <text x="178" y="126" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="42" font-weight="800" fill="#153f2a">予約・利用フロー</text>
+  <text x="178" y="174" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24" fill="#5b625c">寄附後の予約方法と、当日の流れをステップで確認できます。</text>
+  <g font-family="Hiragino Sans, Yu Gothic, sans-serif">
+    <g transform="translate(104 278)">
+      <rect width="160" height="158" rx="20" fill="#f8faf7" stroke="#d8c9aa"/>
+      <circle cx="80" cy="50" r="30" fill="#153f2a"/><text x="80" y="61" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">1</text>
+      <text x="80" y="112" text-anchor="middle" font-size="22" font-weight="800" fill="#153f2a">寄附・申込</text>
+    </g>
+    <text x="292" y="366" font-size="36" fill="#b69446">→</text>
+    <g transform="translate(340 278)">
+      <rect width="160" height="158" rx="20" fill="#ffffff" stroke="#d8c9aa"/>
+      <circle cx="80" cy="50" r="30" fill="#153f2a"/><text x="80" y="61" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">2</text>
+      <text x="80" y="104" text-anchor="middle" font-size="22" font-weight="800" fill="#153f2a">宿泊券の</text>
+      <text x="80" y="134" text-anchor="middle" font-size="22" font-weight="800" fill="#153f2a">受け取り</text>
+    </g>
+    <text x="528" y="366" font-size="36" fill="#b69446">→</text>
+    <g transform="translate(576 278)">
+      <rect width="160" height="158" rx="20" fill="#f8faf7" stroke="#d8c9aa"/>
+      <circle cx="80" cy="50" r="30" fill="#153f2a"/><text x="80" y="61" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">3</text>
+      <text x="80" y="104" text-anchor="middle" font-size="22" font-weight="800" fill="#153f2a">電話・Web</text>
+      <text x="80" y="134" text-anchor="middle" font-size="22" font-weight="800" fill="#153f2a">で予約</text>
+    </g>
+    <text x="764" y="366" font-size="36" fill="#b69446">→</text>
+    <g transform="translate(812 278)">
+      <rect width="160" height="158" rx="20" fill="#ffffff" stroke="#d8c9aa"/>
+      <circle cx="80" cy="50" r="30" fill="#153f2a"/><text x="80" y="61" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">4</text>
+      <text x="80" y="104" text-anchor="middle" font-size="22" font-weight="800" fill="#153f2a">当日</text>
+      <text x="80" y="134" text-anchor="middle" font-size="22" font-weight="800" fill="#153f2a">チェックイン</text>
+    </g>
+    <rect x="250" y="500" width="700" height="76" rx="18" fill="#153f2a"/>
+    <text x="600" y="548" text-anchor="middle" font-size="28" font-weight="800" fill="#ffffff">温泉・会席料理・宿泊をゆっくり満喫</text>
+    <text x="600" y="636" text-anchor="middle" font-size="23" fill="#1d211f">予約先：○○旅館　TEL 0266-XX-XXXX（受付時間 9:00〜18:00）</text>
+  </g>
+</svg>
